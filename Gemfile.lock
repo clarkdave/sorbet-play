@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    bencode (0.8.2)
     sorbet (0.4.4756)
       sorbet-static (= 0.4.4756)
     sorbet-runtime (0.4.4756)
@@ -10,6 +11,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bencode (~> 0.8.2)
   sorbet (~> 0.4)
   sorbet-runtime (~> 0.4)
 
